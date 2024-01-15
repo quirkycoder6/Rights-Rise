@@ -1,5 +1,6 @@
 import './home.css'
 import React from 'react'
+import bg1 from '../../assets/background1.jpg'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
 import {useNavigate} from 'react-router-dom'

@@ -24,7 +24,7 @@
 
 .main-section {
   position: relative;
-  width: 80vw;
+  width: 26.5vw;
   height: 100%;
   display: flex;
   flex-direction: row;
@@ -36,17 +36,48 @@
   position: absolute;
   width: 25vw;
   height: 100%;
-  left: 20px;
+  left: 0px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-evenly; */
+  background-color: bisque;
+}
+
+.menu .item1 {
+  position: absolute;
+  left: 32%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .item2 {
+  position: absolute;
+  left: 45.5%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .item3 {
+  position: absolute;
+  left: 36%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.center-section {
+  position: relative;
+  width: 48.5vw;
+  height: 100%;
+  left: 0px;
+  background-color:chartreuse;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  background-color: bisque;
 }
 
 .sub-section {
   position: relative;
   width: 20vw;
-  left: 0px;
   padding: 20px 20px;
   background-color: blue;
   display: flex;

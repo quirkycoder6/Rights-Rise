@@ -14,10 +14,13 @@ export default function Acc_home() {
       <div className="body">
         <div className="main-section">
           <div className='menu'>
-            <div><a>Stories</a></div>
-            <div><a>Puzzles and Games</a></div>
-            <div><a>Legal ABCs</a></div>
+            <div className='item1'><a href='' onClick={() => navigate('/stories')}>Stories</a></div>
+            <div className='item2'><a href='' onClick={() => navigate('/puzzle-game')}>Puzzles and Games</a></div>
+            <div className='item3'><a href='' onClick={() => navigate('/legal-abc')}>Legal ABCs</a></div>
           </div>
+        </div>
+        <div className="center-section">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum, et, ab unde laborum a commodi veniam at accusamus quasi cumque. Rerum aliquid officia voluptates fugit officiis quod, ipsum incidunt?</p>
         </div>
         <div className="sub-section">
             <div className="badge">
