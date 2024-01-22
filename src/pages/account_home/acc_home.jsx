@@ -3,6 +3,7 @@ import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import badge_icon from '../../assets/badge.png'
 
 export default function Acc_home() {
 
@@ -24,7 +25,7 @@ export default function Acc_home() {
         </div>
         <div className="sub-section">
             <div className="badge">
-
+              <img src={badge_icon} alt=""/>
             </div>
             <div className="profile">
               <div className='desc'><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur error a delectus ipsam voluptate quas porro illo soluta, quod, est ipsa odit natus sapiente incidunt dolorum veniam quaerat necessitatibus assumenda.</p></div>

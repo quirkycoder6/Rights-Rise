@@ -21,5 +21,10 @@
 }
 
 .sub-section button {
+    position: relative;
+    width: 120px;
+    height: 30px;
+    top: 10px;
+    left: 65px;
     cursor: pointer;
 }

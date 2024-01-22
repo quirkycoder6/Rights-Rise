@@ -3,7 +3,7 @@ import React from 'react'
 import Header from '../../components/header/header'
 import Footer from '../../components/footer/footer'
 import { useNavigate } from 'react-router-dom'
-
+import Profile from '../../components/profile/profile'
 
 export default function Legalabc() {
     
@@ -17,6 +17,7 @@ export default function Legalabc() {
               
           </div>
           <div className="sub-section">
+              <Profile/>
               <button onClick={() => navigate('/acc-home')}>Back to menu</button>
           </div>
         </div>

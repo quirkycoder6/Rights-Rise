@@ -37,9 +37,6 @@
   width: 25vw;
   height: 100%;
   left: 0px;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: space-evenly; */
   background-color: bisque;
 }
 
@@ -85,10 +82,29 @@
   justify-content: space-between;
 }
 
+.sub-section .badge {
+  position: relative;
+  width: 180px;
+  height: 30px;
+  top: -5px;
+  left: 30px;
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.badge img {
+  position: relative;
+  left: 5px;
+  width: 29px;
+  height: 29px;
+}
+
 .profile {
   position: relative;
   height: 60dvh;
-  bottom: 0;
+  bottom: -10px;
   padding: 10px;
   background-color: brown;
   display: flex;
@@ -103,10 +119,9 @@
   background-color: yellowgreen;
 }
 
-.profile button {
+.profile .logout {
   position: absolute;
-  margin-right: 15px;
-  right: 0px;
+  left: 53px;
   bottom: 15px;
   cursor: pointer;
 }

@@ -1,14 +1,14 @@
 .signup-container {
     position: absolute;
     width: 450px;
-    height: 320px;
+    height: 360px;
     padding: 0;
     margin: 10px;
-    top: 70px;
+    top: 15px;
     right: 20px;
     background-color: aqua;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: column;
     overflow: hidden;
 }
@@ -44,6 +44,40 @@
 }
 
 .name input {
+    position: relative;
+    left: -20px;
+}
+
+.age {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.age img {
+    position: relative;
+    left: 10px;
+}
+
+.age input {
+    position: relative;
+    left: -20px;
+}
+
+.username {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.username img {
+    position: relative;
+    left: 10px;
+}
+
+.username input {
     position: relative;
     left: -20px;
 }
