@@ -5,7 +5,7 @@ import badge_icon from '../../assets/badge.png'
 
 export default function Profile() {
   return (
-    <div className='container'>
+    <div className='profile-container'>
       <div className="profile-pic">
         <img src={profile_icon} alt=""/>
       </div>

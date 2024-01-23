@@ -1,7 +1,8 @@
-.container {
+.profile-container {
     background-color: chartreuse;
     padding: 0;
     margin: 0;
+    height: 450px;
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
