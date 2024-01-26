@@ -1,0 +1,40 @@
+.container {
+  width: 100%;
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.body {
+  position: relative;
+  width: 98vw;
+  height: 75dvh;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  background-color: burlywood;
+}
+
+.signup-login {
+  position: absolute;
+  width: 20%;
+  right: 0px;
+  bottom: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.signup-login .signup {
+  cursor: pointer;
+}
+
+.signup-login .login {
+  cursor: pointer;
+}
+

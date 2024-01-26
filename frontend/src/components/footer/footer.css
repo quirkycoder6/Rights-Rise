@@ -1,0 +1,20 @@
+.footer {
+    position: relative;
+    width: 98vw;
+    height: 20px;
+    margin-top: 0px;
+    margin-left: 12px;
+    margin-right: 12px;
+    bottom: 0;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .footer p {
+    position: absolute;
+    right: 5px;
+    font-size: x-small;
+    background-color: blue;
+  }

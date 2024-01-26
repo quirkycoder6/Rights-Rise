@@ -1,0 +1,75 @@
+.profile-container {
+    background-color: chartreuse;
+    padding: 0;
+    margin: 0;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    left: 62px;
+    background-color: aqua;
+}
+
+.profile-pic img {
+    width: 118px;
+    height: 118px;
+}
+
+.profile-info {
+    position: relative;
+    width: 200px;
+    height: 220px;
+    left: 23px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.username_ {
+    position: relative;
+    width: 160px;
+    height: 35px;
+    left: 18.5px;
+    background-color: plum;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.username_ h4 {
+    position: absolute;
+    top: -22px;
+    font-size: larger;
+    max-width: 145px;
+    max-height: 28px;
+}
+
+.badge_ {
+    position: relative;
+    width: 180px;
+    height: 30px;
+    left: 9px;
+    background-color: yellow;
+}
+
+.badge_ img {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 5px;
+}
+
+.progress {
+    position: relative;
+    width: 190px;
+    height: 125px;
+    left: 4.5px;
+    background-color: violet;
+}
