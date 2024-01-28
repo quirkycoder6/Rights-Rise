@@ -1,0 +1,138 @@
+.profile-container {
+    position: relative;
+    width: 20dvw;
+    height: 65dvh;
+    top: 5dvh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.profile-container::before {
+    content: '';
+    position: absolute;
+    background-color: #8D8741;
+    border-radius: 14px;
+    opacity: .75;
+    inset: 0;
+}
+
+.profile-pic {
+    position: relative;
+    width: 13dvw;
+    height: 22dvh;
+    left: 3.5dvw;
+    top: 0dvh;
+}
+
+.profile-pic::before {
+    content: '';
+    position: absolute;
+    background-color: aquamarine;
+    border-radius: 50%;
+    opacity: .75;
+    inset: 0;
+}
+
+.profile-pic img {
+    position: relative;
+    width: 12.75dvw;
+    height: 21.75dvh;
+}
+
+.profile-info {
+    position: relative;
+    width: 16dvw;
+    height: 40dvh;
+    left: 2dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile-info::before {
+    content: '';
+    position: absolute;
+    background-color: bisque;
+    border-radius: 14px;
+    opacity: .75;
+    inset: 0;
+}
+
+.username_ {
+    position: relative;
+    width: 13dvw;
+    height: 6.5dvh;
+    left: 1.5dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.username_::before {
+    content: '';
+    position: absolute;
+    background-color: plum;
+    border-radius: 14px;
+    opacity: .75;
+    inset: 0;
+}
+
+.username_ h4 {
+    position: absolute;
+    top: -4dvh;
+    font-size: larger;
+    max-width: 13dvw;
+    max-height: 6.5dvh;
+    isolation: isolate;
+}
+
+.badge_ {
+    position: relative;
+    width: 14.5dvw;
+    height: 5dvh;
+    left: 0.75dvw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.badge_::before {
+    content: '';
+    position: absolute;
+    background-color: yellow;
+    border-radius: 14px;
+    opacity: .75;
+    inset: 0;
+}
+
+.badge_ img {
+    position: relative;
+    width: 4.5dvw;
+    height: 4.5dvh;
+    left: -0.15dvw;
+    top: .35dvh;
+}
+
+.badge_ .progress-bar {
+    position: relative;
+    width: 15dvw;
+    left: -0.5dvw;
+    border-radius: 12px;
+}
+
+.progress {
+    position: relative;
+    width: 15.25dvw;
+    height: 24dvh;
+    left: 0.35dvw;
+}
+
+.progress::before {
+    content: '';
+    position: absolute;
+    background-color: violet;
+    border-radius: 14px;
+    opacity: .75;
+    inset: 0;
+}

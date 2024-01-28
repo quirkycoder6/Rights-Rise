@@ -1,0 +1,76 @@
+.container-home {
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container-home::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../assets/background1.jpg');
+  background-size: cover;
+  opacity: .25;
+  inset: 0;
+}
+
+.body-home {
+  width: 94vw;
+  height: 75dvh;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  isolation: isolate;
+}
+
+.about p {
+  font-size: larger;
+  font-weight: 500;
+}
+
+.options-home {
+  position: relative;
+  width: 50vw;
+  height: 5vh;
+  bottom: -7.5%;
+  right: -45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.options-home h6 {
+  position: relative;
+  left: 0;
+  bottom: 60%;
+}
+
+.signup-login {
+  position: relative;
+  width: 45%;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.signup-login button {
+  width: 5.5dvw;
+  background-color: #FBEEC1;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.signup-login button:hover {background-color: #BC986A;}
+
+.signup-login button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+

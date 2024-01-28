@@ -1,0 +1,21 @@
+.video-container {
+    position: relative;
+    max-width: 76.75dvw;
+    max-height: 79.75dvh;
+    top: 0.1dvh;
+    bottom: 0dvh;
+    left: 0.1dvw;
+    right: 0dvw;
+    border-radius: 12px;
+}
+
+video {
+    position: relative;
+    max-width: 76.75dvw;
+    max-height: 79.75dvh;
+    top: 0.15dvh;
+    bottom: 0dvh;
+    left: 5.9dvw;
+    right: 0dvw;
+    border-radius: 12px;
+}

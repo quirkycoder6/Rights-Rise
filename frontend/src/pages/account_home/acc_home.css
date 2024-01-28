@@ -1,0 +1,102 @@
+.container-acchome {
+  position: relative;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.container-acchome::before {
+  content: '';
+  position: absolute;
+  background-image: url('../../assets/background1.jpg');
+  background-size: cover;
+  opacity: .25;
+  inset: 0;
+}
+  
+.body-acchome {
+  width: 98vw;
+  height: 80dvh;
+  margin-left: 1dwv;
+  margin-right: 1dvw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  isolation: isolate;
+}
+
+.main-section-acchome {
+  position: relative;
+  width: 26.5dvw;
+  height: 80dvh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.menu {
+  position: absolute;
+  width: 25dvw;
+  height: 80dvh;
+  left: 2dvw;
+}
+
+.menu .item1 {
+  position: absolute;
+  left: 8dvw;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .item2 {
+  position: absolute;
+  left: 11.5dvw;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.menu .item3 {
+  position: absolute;
+  left: 9.2dvw;
+  top: 75%;
+  transform: translate(-50%, -50%);
+}
+
+.center-section-acchome {
+  position: relative;
+  width: 48dvw;
+  height: 80dvh;
+  left: 0.3dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sub-section-acchome {
+  position: relative;
+  width: 20dvw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sub-section-acchome button {
+  position: absolute;
+  width: 5.5dvw;
+  height: 4.5dvh;
+  left: 7.5dvw;
+  bottom: 2.8dvh;
+  border-radius: 14px;
+  background-color: #FBEEC1;
+  cursor: pointer;
+}
+
+.sub-section-acchome button:hover {background-color: #BC986A;}
+
+.sub-section-acchome button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}

@@ -1,0 +1,48 @@
+.container-login {
+    position: relative;
+    width: 100dvw;
+    height: 100dvh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.container-login::before {
+    content: '';
+    position: absolute;
+    background-image: url('../../assets/background1.jpg');
+    background-size: cover;
+    opacity: .25;
+    inset: 0;
+}
+
+.body_login {
+    width: 94vw;
+    height: 75dvh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    isolation: isolate;
+}
+
+.left {
+    position: relative;
+    width: 70dvw;
+    height: 70dvh;
+    padding: 1dvw;
+}
+
+.left p {
+    position: relative;
+    top: 20dvh;
+}
+
+.right {
+    position: relative;
+    width: 50dvw;
+    height: 75dvh;
+    padding: 1dvw;
+}

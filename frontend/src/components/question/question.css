@@ -1,0 +1,7 @@
+.question {
+    position: relative;
+    max-width: 76.75dvw;
+    max-height: 35dvh;
+    background-color: blue;
+    z-index: 2;
+}

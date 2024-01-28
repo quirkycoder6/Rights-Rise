@@ -1,0 +1,176 @@
+.signup-container {
+    position: absolute;
+    width: 30dvw;
+    height: 55dvh;
+    top: 15dvh;
+    right: 2.5dvw;
+    border-radius: 12px;
+    background-color: #DAAD86;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.desc-signup {
+    position: relative;
+    top: 0;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.signup-container .inputs_ {
+    position: relative;
+    width: 26dvw;
+    height: 30dvh;
+    top: -1.5dvh;
+    left: 0dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.inputs {
+    width: 25dvw;
+    height: 30dvh;
+    top: 2.5dvh;
+    left: 2.5dvw;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #BC986A;
+}
+
+.name {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.name img {
+    position: relative;
+    left: 0.5dvw;
+}
+
+.name input {
+    position: relative;
+    left: -1dvw;
+}
+
+.age {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.age img {
+    position: relative;
+    left: 0.5dvw;
+}
+
+.age input {
+    position: relative;
+    left: -1dvw;
+}
+
+.username {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.username img {
+    position: relative;
+    left: 0.5dvw;
+}
+
+.username input {
+    position: relative;
+    left: -1dvw;
+}
+
+.email {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.email img {
+    position: relative;
+    left: 0.5dvw;
+}
+
+.email input {
+    position: relative;
+    left: -1dvw;
+}
+
+.password {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.password img {
+    position: relative;
+    left: 0.5dvw;
+}
+
+.password input {
+    position: relative;
+    left: -1dvw;
+}
+
+/* .text-danger {
+    position: relative;
+    font-size: smaller;
+    left: 5dvh;
+} */
+
+.signup button {
+    position: relative;
+    width: 5.5dvw;
+    top: 3.5dvh;
+    left: 2dvw;
+    background-color: #FBEEC1;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.inputs_ button:hover {background-color: #BC986A;}
+
+.inputs_ button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+.signup-container .options_ {
+    position: relative;
+    width: 25dvw;
+    height: 5dvh;
+    top: 1dvh;
+    left: 2.5dvw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.options_ button {
+    width: 5.5dvw;
+    background-color: #FBEEC1;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.options_ button:hover {background-color: #BC986A;}
+
+.options_ button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
